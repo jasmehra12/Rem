@@ -43,6 +43,17 @@ from FallenRobot.modules import ALL_MODULES
 from FallenRobot.modules.helper_funcs.chat_status import is_user_admin
 from FallenRobot.modules.helper_funcs.misc import paginate_modules
 
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return '..'
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
+
 
 def get_readable_time(seconds: int) -> str:
     count = 0
