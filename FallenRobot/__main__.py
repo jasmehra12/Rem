@@ -43,6 +43,18 @@ from FallenRobot.modules import ALL_MODULES
 from FallenRobot.modules.helper_funcs.chat_status import is_user_admin
 from FallenRobot.modules.helper_funcs.misc import paginate_modules
 
+from flask import Flask
+
+app = Flask(name)
+
+@app.route('/')
+def home():
+    return "Flask App Running!"
+
+@app.route('/health')
+def health_check():
+    return "OK", 200
+
 
 def get_readable_time(seconds: int) -> str:
     count = 0
@@ -770,6 +782,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
+    app.run(host='0.0.0.0', port=5000)
     telethn.start(bot_token=TOKEN)
     pbot.start()
     main()
