@@ -81,7 +81,7 @@ PHOTO = [
 PHOT=random.choice(PHOTO)
 PM_START_TEXT = (
     f'```𝖧𝖾𝗅𝗅𝗈 {{}},```\n'       
-    '➻ 𝖬𝗒𝗌𝖾𝗅𝖿 *𝖪𝖺𝗈𝗋𝗎𝗄𝗈 𝖶𝖺𝗀𝗎𝗋𝗂!* 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.\n'
+    '➻ 𝖬𝗒𝗌𝖾𝗅𝖿 *Miss Makima!* 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.\n'
     '──────────────────────\n'
     f'๏ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌. [🩵]({PHOT})'
 )
@@ -98,7 +98,7 @@ buttons = [
         InlineKeyboardButton(text="𝖠𝖻𝗈𝗎𝗍 ⛩️", callback_data="fallen_"),
     ],
     [
-        InlineKeyboardButton(text="🥀 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🥀", url="https://t.me/GenAnimeOFCCHAT"),
+        InlineKeyboardButton(text="🥀 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🥀", url="https://t.me/Anime_Nova_Chat_Group"),
     ],
 ]
 
@@ -394,15 +394,15 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Sᴜᴩᴩᴏʀt", url="https://t.me/GenAnimeOfcchat"
+                            text="Sᴜᴩᴩᴏʀt", url="https://t.me/Anime_Nova_Chat_Group"
                         ),
                         InlineKeyboardButton(
-                            text="Uᴩᴅᴀᴛᴇs", url="t.me/GenAnimeOfc"
+                            text="Uᴩᴅᴀᴛᴇs", url="t.me/Nova_Networks"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Fᴜsɪᴏɴ Aɴɪᴍᴇ", url="t.me/FusionAnime"
+                            text="Fᴜsɪᴏɴ Aɴɪᴍᴇ", url="t.me/Anime_x_Nova"
                         ),                        
                     ],
                     [
@@ -437,7 +437,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 ᴀɴᴅ ᴜsɪɴɢ [sǫʟᴀʟᴄʜᴇᴍʏ](https://www.sqlalchemy.org) ᴀɴᴅ [ᴍᴏɴɢᴏ](https://cloud.mongodb.com) ᴀs ᴅᴀᴛᴀʙᴀsᴇ.
 
 
-*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/Codespaces)
+*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/jasmehra12)
 
 
 {BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/AnonymousX1025/FallenRobot/blob/master/LICENSE).
