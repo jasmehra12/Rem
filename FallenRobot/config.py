@@ -2,8 +2,8 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 25395782
-    API_HASH = "3c0f6066a07142d664690cfd34447450"
+    API_ID = 22225430
+    API_HASH = "4c5c28abd62233ef4b993fb972f83262"
 
     CASH_API_KEY = "UHEHI3OQIOEBQ67A"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 #new
@@ -13,18 +13,18 @@ class Config(object):
     
     EVENT_LOGS = ()  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = "mongodb+srv://nitinkumardhundhara:DARKXSIDE78@cluster0.wdive.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI = "mongodb+srv://Mrdaxx123:Mrdaxx123@cluster0.q1da65h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f051105a-1f86-4d69-95ae-92663bd7d058/anim=false,width=450/00059-3393265683.jpeg"
 
-    SUPPORT_CHAT = "GenAnimeOfcChat"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "Anime_Nova_Chat_Group"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "7236820256:AAF3bDTr2cispwYXevolB4ReRlACLFwoTsE"  # Get bot token from @BotFather on Telegram
+    TOKEN = "8104462190:AAFejQ2wF5EfMfrZ8Zk3ndHZAsCtSlctex0"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "LS20TNCESP4C"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 7086472788  # User id of your telegram account (Must be integer)
+    OWNER_ID = 6039119180  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
