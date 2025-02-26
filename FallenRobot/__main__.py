@@ -81,19 +81,19 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
     
 PHOTO = [
-    "https://wallpapercave.com/wp/wp14760893.jpg",
-    "https://i.ytimg.com/vi/qMbMttg7OQA/maxresdefault.jpg",
-    "https://i.pinimg.com/736x/7d/d9/e4/7dd9e4c4b17680f86240fee69199ef53.jpg",
-    "https://images-ng.pixai.art/images/orig/d808225d-9d21-4e08-aca7-a8fa7fef1269",
-    "https://animenew.com.br/wp-content/uploads/2024/09/The-Fragrant-Flower-Blooms-with-Dignity-Manga-ganha-anime-jpg.webp",
-    "https://i.ytimg.com/vi/8t-thRFV_58/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBAxmB3JrUmes4L1Qha61XLoE1GIw",
-    "https://i.ytimg.com/vi/_57TBBXBxgw/maxresdefault.jpg",
-    "https://i.pinimg.com/736x/6d/cf/04/6dcf04711f1f6b2f22ecae983341018c.jpg"
+    "https://envs.sh/eTX.jpg",
+    "https://envs.sh/eTy.jpg",
+    "https://envs.sh/eT6.jpg",
+    "https://envs.sh/eTx.jpg",
+    "https://envs.sh/eTV.jpg",
+    "https://envs.sh/eT-.jpg",
+    "https://envs.sh/epE.jpg",
+    "https://envs.sh/epQ.jpg"
 ]
 PHOT=random.choice(PHOTO)
 PM_START_TEXT = (
     f'```𝖧𝖾𝗅𝗅𝗈 {{}},```\n'       
-    '➻ 𝖬𝗒𝗌𝖾𝗅𝖿 *𝖪𝖺𝗈𝗋𝗎𝗄𝗈 𝖶𝖺𝗀𝗎𝗋𝗂!* 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.\n'
+    '➻ 𝖬𝗒𝗌𝖾𝗅𝖿 *Asuna Yuki!* 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.\n'
     '──────────────────────\n'
     f'๏ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌. [🩵]({PHOT})'
 )
@@ -110,7 +110,7 @@ buttons = [
         InlineKeyboardButton(text="𝖠𝖻𝗈𝗎𝗍 ⛩️", callback_data="fallen_"),
     ],
     [
-        InlineKeyboardButton(text="🥀 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🥀", url="https://t.me/GenAnimeOFCCHAT"),
+        InlineKeyboardButton(text="🥀 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🥀", url="https://t.me/Anime_Nova_Chat_Group"),
     ],
 ]
 
@@ -383,12 +383,12 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="🪩 Cʜᴀɴɴᴇʟ", callback_data="fallen_support"
                         ),
                         InlineKeyboardButton(
-                            text="Uᴩᴅᴀᴛᴇꜱ 🪩", url="t.me/pirate_flicks"
+                            text="Uᴩᴅᴀᴛᴇꜱ 🪩", url="https://t.me/Anime_Nova_Chat_Group"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="📇 AʀᴄʜɪᴠE 📇", url="https://t.me/+y42QC-v2OzAwZDY9"
+                            text="📇 AʀᴄʜɪᴠE 📇", url="https://t.me/+h6gTiWKlHSkzOWE1"
                         ),                        
                     ],
                     [
@@ -406,15 +406,15 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Sᴜᴩᴩᴏʀt", url="https://t.me/GenAnimeOfcchat"
+                            text="Sᴜᴩᴩᴏʀt", url="https://t.me/Anime_Nova_Chat_Group"
                         ),
                         InlineKeyboardButton(
-                            text="Uᴩᴅᴀᴛᴇs", url="t.me/GenAnimeOfc"
+                            text="Uᴩᴅᴀᴛᴇs", url="https://t.me/+h6gTiWKlHSkzOWE1"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Fᴜsɪᴏɴ Aɴɪᴍᴇ", url="t.me/FusionAnime"
+                            text="Aɴɪᴍᴇ", url="https://t.me/Nova_Networks"
                         ),                        
                     ],
                     [
