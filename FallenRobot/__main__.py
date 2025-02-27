@@ -44,8 +44,6 @@ from FallenRobot.modules.helper_funcs.chat_status import is_user_admin
 from FallenRobot.modules.helper_funcs.misc import paginate_modules
 
 
-
-
 def get_readable_time(seconds: int) -> str:
     count = 0
     ping_time = ""
@@ -61,7 +59,7 @@ def get_readable_time(seconds: int) -> str:
         seconds = int(remainder)
 
     for x in range(len(time_list)):
-        time_list[x] = str(time_list[x]) + time_suff_list[x]
+        time_list[x] = str(time_list[x]) + time_suffix_list[x]
     if len(time_list) == 4:
         ping_time += time_list.pop() + ", "
 
@@ -83,7 +81,7 @@ PHOTO = [
 PHOT=random.choice(PHOTO)
 PM_START_TEXT = (
     f'```𝖧𝖾𝗅𝗅𝗈 {{}},```\n'       
-    '➻ 𝖬𝗒𝗌𝖾𝗅𝖿 *Asuna Yuki!* 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.\n'
+    '➻ 𝖬𝗒𝗌𝖾𝗅𝖿 *ᗰIՏՏ ᗰᗩKIᗰᗩ!* 𝖳𝗁𝖾 𝖬𝗈𝗌𝗍 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝖶𝗂𝗍𝗁 𝖲𝗈𝗆𝖾 𝖠𝗐𝖾𝗌𝗈𝗆𝖾 𝖠𝗇𝖽 𝖴𝗌𝖾𝖿𝗎𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.\n'
     '──────────────────────\n'
     f'๏ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌. [🩵]({PHOT})'
 )
@@ -399,12 +397,12 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="Sᴜᴩᴩᴏʀt", url="https://t.me/Anime_Nova_Chat_Group"
                         ),
                         InlineKeyboardButton(
-                            text="Uᴩᴅᴀᴛᴇs", url="https://t.me/+h6gTiWKlHSkzOWE1"
+                            text="Uᴩᴅᴀᴛᴇs", url="https://t.me/Nova_Networks"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Aɴɪᴍᴇ", url="https://t.me/Nova_Networks"
+                            text="Aɴɪᴍᴇ", url="https://t.me/+h6gTiWKlHSkzOWE1"
                         ),                        
                     ],
                     [
@@ -442,7 +440,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 *ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://github.com/Codespaces)
 
 
-{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/AnonymousX1025/FallenRobot/blob/master/LICENSE).
+{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/lob/master/LICENSE).
 © 2022 - 2023 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
