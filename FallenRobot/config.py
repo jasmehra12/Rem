@@ -16,7 +16,7 @@ class Config(object):
     MONGO_DB_URI = "mongodb+srv://Mrdaxx123:Mrdaxx123@cluster0.q1da65h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f051105a-1f86-4d69-95ae-92663bd7d058/anim=false,width=450/00059-3393265683.jpeg"
+    START_IMG = "https://static.zerochan.net/Makima.full.3797768.png"
 
     SUPPORT_CHAT = "Anime_Nova_Chat_Group"  # Your Telegram support group chat username where your users will go and bother you
 
