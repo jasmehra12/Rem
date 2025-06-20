@@ -87,8 +87,7 @@ PM_START_TEXT = (
 )
 
 buttons = [
-
-        InlineKeyboard
+InlineKeyboard
             text="➕ 𝖠𝖽𝖽 𝗍𝗈 𝖦𝗋𝗈𝗎𝗉 ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
