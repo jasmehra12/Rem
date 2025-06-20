@@ -86,7 +86,7 @@ PM_START_TEXT = (
     f'๏ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌. [🩵]({PHOT})'
 )
 
-buttons = [
+buttons = (
 InlineKeyboard
             text="➕ 𝖠𝖽𝖽 𝗍𝗈 𝖦𝗋𝗈𝗎𝗉 ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
